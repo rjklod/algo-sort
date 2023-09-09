@@ -1,0 +1,15 @@
+ALGORITHM dot_product
+ FUNCTION dot_product (x1,x2,y1,y2) : return_integer
+  VAR
+   sum,x1,x2,y1,y2:INTEGER;
+ BEGIN
+    sum=(x1*x2)+(y1*y2) 
+    RETURN sum ;
+ END
+
+ s=FUNCTION dot_product
+ IF (s=0) THEN
+    write ("les deux vecteur son orthogonal");
+ELSE
+    write("les deux vecteur ne son pas orthognal");
+ END_IF 
